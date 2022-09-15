@@ -224,7 +224,7 @@ helm repo update
 
 ```shell
 helm upgrade --install prometheus prometheus-community/kube-prometheus-stack \
-  -f https://raw.githubusercontent.com/risingwavelabs/risingwave-operator/main/monitoring/kube-prometheus-stack/kube-prometheus-stack.yaml
+  -f ./monitoring/kube-prometheus-stack/kube-prometheus-stack.yaml
 ```
 
 To check the running status, check the Pods with the following command:
